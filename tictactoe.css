@@ -1,0 +1,49 @@
+body{
+background-image: linear-gradient(to bottom, #FF69B4, #2323ff);
+color: #fff;
+}
+.board {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px;
+margin: 5.5% 35% 1% 36%;
+width: 300px;
+}
+.square-wrapper {
+background-color: #ff0e38;
+padding: 10px;
+}
+.square {
+width: 120px;
+height: 120px;
+background-color: #ff1360;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 36px;
+cursor: pointer;
+}
+.square:hover {
+background-color: #ff46a2;
+}
+.game-info {
+text-align: center;
+margin-bottom: 20px;
+}
+.game-info h2 {
+margin: 10px 0;
+}
+.game-info button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: #ff1360; 
+color: #fff; 
+}
+.game-info button:hover {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: #ff46a2; 
+color: #fff;
+}
